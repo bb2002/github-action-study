@@ -39,3 +39,5 @@ jobs:
         
       - name: Run jest
         run: npm test
+    env:
+      SECRET: ${{secrets.SECRET}}
